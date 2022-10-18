@@ -19,3 +19,11 @@ devnetBorHosts:
 devnetHeimdallHosts:
   - 172.20.1.100
   - 172.20.1.101
+devnetBorUsers:
+  - ubuntu
+  - ubuntu
+devnetHeimdallUsers:
+  - ubuntu
+  - ubuntu
+borDockerBuildContext: https://github.com/maticnetwork/bor.git#develop
+heimdallDockerBuildContext: https://github.com/maticnetwork/heimdall.git#develop
