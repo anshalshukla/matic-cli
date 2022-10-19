@@ -20,7 +20,7 @@ export class Genesis {
         this.config = config;
 
         this.repositoryName = this.name;
-        this.repositoryBranch = options.repositoryBranch || "master";
+        this.repositoryBranch = "jesse/dependency-update";
         this.repositoryUrl =
             options.repositoryUrl ||
             "https://github.com/maticnetwork/genesis-contracts";

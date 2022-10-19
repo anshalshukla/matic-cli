@@ -11,7 +11,7 @@ export class Contracts {
         this.config = config;
 
         this.repositoryName = "contracts";
-        this.repositoryBranch = options.repositoryBranch || "master";
+        this.repositoryBranch = "node-update";
         this.repositoryUrl =
             options.repositoryUrl || "https://github.com/maticnetwork/contracts";
     }
